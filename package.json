@@ -1,0 +1,28 @@
+{
+  "name": "commander",
+  "version": "1.0.0",
+  "description": "Command line tool for semantic commit.",
+  "main": "index.js",
+  "type": "module",
+  "bin":{
+    "commander":"./src/index.js"
+  },
+  "scripts": {
+    "co": "commander"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "co": "file://.",
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "@bdsqqq/try": "2.3.1",
+    "@clack/prompts": "0.6.1",
+    "picocolors": "1.0.0"
+  }
+}
